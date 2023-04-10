@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="result-side">
+        <h1 class="result-title">Your Result</h1>
+        <div class="result-score">
+          <h2>76</h2>
+          <span>of 100</span>
+        </div>
+        <p class="result-message">Great</p>
+        <p class="result-text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div class="summary-side">
+        <h2 class="summary-title">Summary</h2>
+        <div class="summary-score-container">
+          <!-- single score -->
+          <div class="summary-score red">
+            <div class="summary-score-left">
+              <img src="./assets/images/icon-reaction.svg" alt="" />
+              <p class="summary-score-text">Reaction</p>
+            </div>
+            <div class="summary-score-right">
+              <p class="net-score"><span>80</span> / 100</p>
+            </div>
+          </div>
+          <!--end of single score -->
+          <!-- single score -->
+          <div class="summary-score yellow">
+            <div class="summary-score-left">
+              <img src="./assets/images/icon-memory.svg" alt="" />
+              <p class="summary-score-text">Verbal</p>
+            </div>
+            <div class="summary-score-right">
+              <p class="net-score"><span>92</span> / 100</p>
+            </div>
+          </div>
+          <!--end of single score -->
+          <!-- single score -->
+          <div class="summary-score green">
+            <div class="summary-score-left">
+              <img src="./assets/images/icon-verbal.svg" alt="" />
+              <p class="summary-score-text">Reaction</p>
+            </div>
+            <div class="summary-score-right">
+              <p class="net-score"><span>61</span> / 100</p>
+            </div>
+          </div>
+          <!--end of single score -->
+          <!-- single score -->
+          <div class="summary-score blue">
+            <div class="summary-score-left">
+              <img src="./assets/images/icon-visual.svg" alt="" />
+              <p class="summary-score-text">Visual</p>
+            </div>
+            <div class="summary-score-right">
+              <p class="net-score"><span>72 </span> / 100</p>
+            </div>
+          </div>
+          <!--end of single score -->
+        </div>
+
+        <a class="btn" href="">Continue</a>
+      </div>
+    </main>
+  </body>
+</html>
